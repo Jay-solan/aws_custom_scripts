@@ -1,0 +1,113 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "fss-qa1-rds",
+            "DBInstanceClass": "db.t4g.large",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "FieldSafeUser_1",
+            "DBName": "FieldSafe",
+            "Endpoint": {
+                "Address": "fss-qa1-rds.clusyaehmfje.us-west-2.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z1PVIF0B656C1W"
+            },
+            "AllocatedStorage": 100,
+            "InstanceCreateTime": "datetime.datetime(2022,9,22,5,43,59,347000, tzinfo=tzutc())",
+            "PreferredBackupWindow": "09:59-10:29",
+            "BackupRetentionPeriod": 7,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-0c8c8a6ee16caaa73",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.mysql8.0",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "us-west-2c",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "default",
+                "DBSubnetGroupDescription": "default",
+                "VpcId": "vpc-51e3fb33",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-d1a442b4",
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-6bc4c21f",
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-e39ebfa5",
+                        "SubnetAvailabilityZone": {
+                            "Name": "us-west-2c"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "thu:07:19-thu:07:49",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "datetime.datetime(2022,10,19,17,5, tzinfo=tzutc())",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.28",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StorageType": "gp2",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-west-2:720682404170:key/01857c60-2f9f-4767-a4cd-8e214b620082",
+            "DbiResourceId": "db-PNJE56F2RAPSHKRL6AQZVDNPOY",
+            "CACertificateIdentifier": "rds-ca-2019",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 0,
+            "DBInstanceArn": "arn:aws:rds:us-west-2:720682404170:db:fss-qa1-rds",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "PerformanceInsightsEnabled": false,
+            "DeletionProtection": false,
+            "AssociatedRoles": [],
+            "TagList": [],
+            "CustomerOwnedIpEnabled": false,
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region",
+            "NetworkType": "IPV4"
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "6672366e-3798-4807-be7b-498975b8d448",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "6672366e-3798-4807-be7b-498975b8d448",
+            "strict-transport-security": "max-age=31536000",
+            "content-type": "text/xml",
+            "content-length": "4833",
+            "date": "Wed, 19 Oct 2022 17:07:35 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}
